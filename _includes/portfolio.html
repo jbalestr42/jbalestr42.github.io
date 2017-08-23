@@ -1,25 +1,39 @@
 <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                {% for post in site.posts %}
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#{{ post.modalID }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="{{ site.baseurl }}/{{ post.img }}" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    </section>
+<section id="portfolio">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>Portfolio</h2>
+				<hr class="star-primary">
+			</div>
+		</div>
+		<div class="card-columns">
+			{% for post in site.posts %}
+			<div class="card">
+				<div class="card-title" style="margin: 15px;">
+					<div class="row">
+						{% assign basesize = 1.0 %}
+						{% assign fontsize = post.title.size | times: 8.0 %}
+						<h4 class="col-sm-9 col-md-8 col-lg-7 col-xl-8 card-title-text" style="font-size:{{ basesize }}em;">{{ post.title }}</h4>
+						<h4 class="col-sm-3 col-md-4 col-lg-5 col-xl-4 card-title-logo">
+							<div class="fa fa-linux"></div>
+							<div class="fa fa-apple"></div>
+							<div class="fa fa-windows"></div>
+						</h4>
+						{{fontsize}}
+						<p>
+{{ basesize | divided_by: fontsize }}
+						</p>
+					</div>
+				</div>
+				<img class="card-img-top" src="{{ site.baseurl }}{{ post.img }}" alt="Card image cap">
+				<div class="card-body">
+					<h4 class="card-title">Card title</h4>
+					<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>

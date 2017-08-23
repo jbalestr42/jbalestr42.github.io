@@ -506,3 +506,45 @@ fieldset[disabled] .btn-success.active {
 	opacity: 0;
 	display: none;
 }
+.card-title-text {
+	text-align: center;
+}
+.card-title-logo {
+	text-align: center;
+}
+@media screen and (min-width: 576px){
+	.card-title-text {
+		text-align: left;
+	}
+	.card-title-logo {
+		text-align: right;
+	}
+	.card-columns {
+		-webkit-column-count:1;
+		-moz-column-count:1;
+		column-count: 1;
+	}
+}
+
+@media (min-width: 768px) {
+	.card-columns {
+		-webkit-column-count:2;
+		-moz-column-count:2;
+		column-count: 2;
+	}
+}
+
+@media (min-width: 992px) {
+	.card-columns {
+		-webkit-column-count:3;
+		-moz-column-count:3;
+		column-count: 3;
+	}
+}
+
+@media (min-width: 1200px) {
+	.card-columns {
+		-webkit-column-count:3;
+		-moz-column-count:3;
+		column-count: 3;
+}
