@@ -10,28 +10,34 @@
 		<div class="card-columns">
 			{% for post in site.posts %}
 			<div class="card">
-				<div class="card-title" style="margin: 15px;">
-					<div class="row">
-						{% assign basesize = 1.0 %}
-						{% assign fontsize = post.title.size | times: 8.0 %}
-						<h4 class="col-sm-9 col-md-8 col-lg-7 col-xl-8 card-title-text" style="font-size:{{ basesize }}em;">{{ post.title }}</h4>
-						<h4 class="col-sm-3 col-md-4 col-lg-5 col-xl-4 card-title-logo">
-							<div class="fa fa-linux"></div>
-							<div class="fa fa-apple"></div>
-							<div class="fa fa-windows"></div>
-						</h4>
-						{{fontsize}}
-						<p>
-{{ basesize | divided_by: fontsize }}
-						</p>
+				<a href="#">
+					<div class="card-title" style="margin: 15px;">
+						<div class="row">
+							{% assign basesize = 2.0 %}
+							{% assign fontsize = post.title.size | minus: 20.0  %}
+							<h4 class="col-sm-9 col-md-8 col-lg-7 col-xl-8 card-title-text" style="font-size:{{ fontsize }}px;">{{ post.title }}</h4>
+							<h4 class="col-sm-3 col-md-4 col-lg-5 col-xl-4 card-title-logo">
+								<div class="fa fa-linux"></div>
+								<div class="fa fa-apple"></div>
+								<div class="fa fa-windows"></div>
+							</h4>
+						</div>
 					</div>
-				</div>
-				<img class="card-img-top" src="{{ site.baseurl }}{{ post.img }}" alt="Card image cap">
-				<div class="card-body">
-					<h4 class="card-title">Card title</h4>
-					<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-				</div>
+					<img class="card-img-top" src="{{ site.baseurl }}{{ post.img }}" alt="Card image cap">
+					<div class="card-body">
+						<p class="card-text">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+					</div>
+					<div class="card-footer" style="background-color: #{{ post.color2 }}; height:50px;">
+						<div class="row">
+							<div class="col-6" style="text-align: left;">
+								<img class="img-fluid" style="height: 2vh;" src="img/2p4i.png">
+							</div>
+							<div class="col-6" style="text-align: right;">
+								<img class="img-fluid" style="height: 30px;" src="img/2p4i.png">
+							</div>
+						</div>
+					</div>
+				</a>
 			</div>
 			{% endfor %}
 		</div>
