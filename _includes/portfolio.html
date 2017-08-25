@@ -9,14 +9,17 @@
 		</div>
 		<div class="card-columns">
 			{% for post in site.posts %}
-			<div class="card">
+			<div class="card portfolio-card-link" style="background-color: #{{ post.color1 }};">
 				<a href="#">
-					<div class="card-title" style="margin: 15px;">
+					<div class="caption">
+						<div class="caption-content fa fa-plus-circle"></div>
+					</div>
+					<div class="" style="margin: 15px 15px 5px 15px;">
 						<div class="row">
 							{% assign basesize = 2.0 %}
 							{% assign fontsize = post.title.size | minus: 20.0  %}
-							<h4 class="col-sm-9 col-md-8 col-lg-7 col-xl-8 card-title-text" style="font-size:{{ fontsize }}px;">{{ post.title }}</h4>
-							<h4 class="col-sm-3 col-md-4 col-lg-5 col-xl-4 card-title-logo">
+							<h4 class="col-sm-8 col-md-8 col-lg-7 col-xl-8 card-title-text" style="font-size:{{ fontsize }}px;">{{ post.title }}</h4>
+							<h4 class="col-sm-4 col-md-4 col-lg-5 col-xl-4 card-title-logo">
 								<div class="fa fa-linux"></div>
 								<div class="fa fa-apple"></div>
 								<div class="fa fa-windows"></div>

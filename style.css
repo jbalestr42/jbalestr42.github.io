@@ -506,6 +506,48 @@ fieldset[disabled] .btn-success.active {
 	opacity: 0;
 	display: none;
 }
+.portfolio-card-link {
+	display: block;
+	position: relative;
+	min-width: 300px;
+}
+
+
+.portfolio-card-link a {
+	text-decoration: none;
+	color:inherit;
+}
+.portfolio-card-link a .caption {
+	background: rgba(24, 188, 156, 0.9);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.0;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+}
+.portfolio-card-link a:hover .caption {
+	opacity: 1;
+}
+.portfolio-card-link a .card-footer {
+	opacity: 1.0;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+}
+.portfolio-card-link a:hover .card-footer {
+	opacity: 0.5;
+}
+
+.portfolio-card-link .caption .caption-content {
+	position: absolute;
+	width: 100%;
+	font-size: 70px;
+	text-align: center;
+	top: calc(50% - 20px);
+	color: white;
+}
 .card-title-text {
 	text-align: center;
 }
