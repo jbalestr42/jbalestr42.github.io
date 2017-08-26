@@ -9,34 +9,35 @@
 		</div>
 		<div class="card-columns">
 			{% for post in site.posts %}
-			<div class="card portfolio-card-link" style="background-color: #{{ post.color1 }};">
+			<div class="card portfolio-card-link" style="background-color: {{ post.color1 }};">
 				<a href="#">
-					<div class="caption">
+					<div class="caption" style="background: {{ post.color_hover }};">
 						<div class="caption-content fa fa-plus-circle"></div>
 					</div>
-					<div class="" style="margin: 15px 15px 5px 15px;">
+					<div class="card-title" style="margin: 15px 15px 5px 15px;">
 						<div class="row">
 							{% assign basesize = 2.0 %}
 							{% assign fontsize = post.title.size | minus: 20.0  %}
 							<h4 class="col-sm-8 col-md-8 col-lg-7 col-xl-8 card-title-text" style="font-size:{{ fontsize }}px;">{{ post.title }}</h4>
 							<h4 class="col-sm-4 col-md-4 col-lg-5 col-xl-4 card-title-logo">
-								<div class="fa fa-linux"></div>
-								<div class="fa fa-apple"></div>
-								<div class="fa fa-windows"></div>
 							</h4>
 						</div>
 					</div>
 					<img class="card-img-top" src="{{ site.baseurl }}{{ post.img }}" alt="Card image cap">
-					<div class="card-body">
+					<div class="card-body" style="background-color: #{{ post.color }};">
 						<p class="card-text">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
 					</div>
-					<div class="card-footer" style="background-color: #{{ post.color2 }}; height:50px;">
-						<div class="row">
+					<div class="card-footer" style="height: 50px;">
+						<div class="row" style="height: 100%;">
 							<div class="col-6" style="text-align: left;">
-								<img class="img-fluid" style="height: 2vh;" src="img/2p4i.png">
+								{% for platform in post.platforms %}
+								<div class="fa fa-{{ platform }}"></div>
+								{% endfor %}
 							</div>
 							<div class="col-6" style="text-align: right;">
-								<img class="img-fluid" style="height: 30px;" src="img/2p4i.png">
+								{% for lib in post.libs %}
+									<img class="img-fluid filter-black" style="top:-13px;height: 200%; position:relative;" src="img/{{ lib }}-logo.png">
+								{% endfor %}
 							</div>
 						</div>
 					</div>

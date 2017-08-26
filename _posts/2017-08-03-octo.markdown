@@ -1,15 +1,21 @@
 ---
 layout: post
 title:  "An Octonaut Odyssey"
-date:   2016-02-06 15:08:10 -0500
-img: img/portfolio/anoctonautodyssey.jpg
+date:   2017-02-06 15:08:10 -0500
+img: img/portfolio/an_octonaut_odyssey.png
 modalID: modalCabin
-color1: 5F9EA0
-color2: FFF8DC
+color1: rgba(255, 249, 192, 1) 
+color2: eb8e90 
+color_hover: rgba(163, 103, 137, 0.9)
 excerpt_separator: <!--more-->
 category: personal
+libs:
+ - sfml 
+platforms:
+ - windows
+ - apple 
 ---
-Use this area of the page to describe your project.
+It's a game about an amnesiac octopus.
 <!--more-->
 The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
 
