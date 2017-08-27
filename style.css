@@ -606,6 +606,11 @@ fieldset[disabled] .btn-success.active {
 		-moz-column-count:3;
 		column-count: 3;
 	}
+	.navbar-custom .navbar-nav .nav-item .active {
+		color: white;
+		background: #18BC9C;
+		border-radius: 2px;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -613,4 +618,10 @@ fieldset[disabled] .btn-success.active {
 		-webkit-column-count:3;
 		-moz-column-count:3;
 		column-count: 3;
+	}
+	.navbar-custom .navbar-nav .nav-item .active {
+		color: white;
+		background: #18BC9C;
+		border-radius: 2px;
+	}
 }
