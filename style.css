@@ -77,34 +77,42 @@ header {
 }
 header .container {
 	padding-top: 100px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 }
 header img {
 	display: block;
 	margin: 0 auto 20px;
+}
+header .container {
+	min-width: 300px;
 }
 header .intro-text .name {
 	display: block;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 1.5em;
+	font-size: 1.7em;
 }
 header .intro-text .skills {
-	font-size: 1.25em;
-	font-weight: 300;
+	font-size: 1.5em;
+	font-weight: 200;
+}
+header .intro-text .description {
+	font-size: 1.0em;
 }
 @media (min-width: 768px) {
 	header .container {
-		padding-top: 200px;
-		padding-bottom: 100px;
+		padding-top: 150px;
+		padding-bottom: 40px;
 	}
-	header .intro-text .name {
-		font-size: 2em;
-	}
-	header .intro-text .skills {
-		font-size: 1.5em;
-	}
+}
+.hr-custom {
+	padding: 0;
+	border: none;
+	border-top: solid 5px;
+	text-align: center;
+	max-width: 450px;
+	margin: 15px auto 15px;
 }
 .navbar-custom {
 	background: #2C3E50;
@@ -188,7 +196,7 @@ header .intro-text .skills {
 	}
 }
 section {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 section h2 {
 	margin: 0;
@@ -584,10 +592,10 @@ fieldset[disabled] .btn-success.active {
 	border-top:1px solid rgba(0,0,0,.125);
 	background-color: rgba(0,0,0,.03);
 }
-.img-responsive.profile {
-	height: 20vmax;
-	width: 20vmax;
-	border-radius: 10vmax;
+header .profile {
+	height: 12em;
+	width: 12em;
+	border-radius: 10em;
 }
 @media screen and (min-width: 576px){
 	.card-title-text {
@@ -601,6 +609,15 @@ fieldset[disabled] .btn-success.active {
 		-moz-column-count:1;
 		column-count: 1;
 	}
+	header .intro-text .name {
+		font-size: 1.7em;
+	}
+	header .intro-text .skills {
+		font-size: 1.5em;
+	}
+	header .intro-text .description {
+		font-size: 1.0em;
+	}
 }
 
 @media (min-width: 768px) {
@@ -608,6 +625,10 @@ fieldset[disabled] .btn-success.active {
 		-webkit-column-count:2;
 		-moz-column-count:2;
 		column-count: 2;
+	}
+	header .profile {
+		height: 12em;
+		width: 12em;
 	}
 }
 
@@ -621,6 +642,19 @@ fieldset[disabled] .btn-success.active {
 		color: white;
 		background: #18BC9C;
 		border-radius: 2px;
+	}
+	header .intro-text .name {
+		font-size: 2em;
+	}
+	header .intro-text .skills {
+		font-size: 1.7em;
+	}
+	header .intro-text .description {
+		font-size: 1.1em;
+	}
+	header .profile {
+		height: 15em;
+		width: 15em;
 	}
 }
 
