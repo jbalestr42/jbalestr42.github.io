@@ -106,6 +106,26 @@ header .intro-text .description {
 		padding-bottom: 40px;
 	}
 }
+.hr-custom.portfolio-hr {
+	padding: 0;
+	border: none;
+	border-top: solid 5px;
+	text-align: center;
+	max-width: 650px;
+	margin: 25px auto 30px;
+}
+.hr-custom.portfolio-hr:after {
+	content: "PORTFOLIO";
+	display: inline-block;
+	position: relative;
+	top: -0.8em;
+	font-size: 3em;
+	font-weight: 900;
+	padding: 0 0.25em;
+}
+.hr-custom.portfolio-hr:after {
+	background-color: white;
+}
 .hr-custom {
 	padding: 0;
 	border: none;
@@ -597,6 +617,15 @@ header .profile {
 	width: 12em;
 	border-radius: 10em;
 }
+.card {
+	height: 100%;
+	margin-bottom: 20px;
+}
+/*
+.card-body {
+	 height: 220px;
+}*/
+
 @media screen and (min-width: 576px){
 	.card-title-text {
 		text-align: left;

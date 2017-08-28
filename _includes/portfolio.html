@@ -3,11 +3,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2>Portfolio</h2>
-				<hr class="hr-custom">
+				<h2>PORTFOLIO</h2>
+				<h4 style="padding-top: 15px;">Personal Project</h4>
+				<hr style="padding: 10px;" class="hr-custom">
 			</div>
 		</div>
-		<div class="card-columns">
+		<div class="card-deck">
 			{% for post in site.posts %}
 			<div class="card portfolio-card-link" style="background-color: {{ post.color1 }};">
 				<a href="#">
@@ -36,7 +37,7 @@
 							</div>
 							<div class="col-6" style="text-align: right;">
 								{% for lib in post.libs %}
-									<img class="img-fluid filter-black" style="top:-13px;height: 200%; position:relative;" src="img/{{ lib }}-logo.png">
+								<img class="img-fluid filter-black" style="top:-13px;height: 200%; position:relative;" src="img/{{ lib }}-logo.png">
 								{% endfor %}
 							</div>
 						</div>
