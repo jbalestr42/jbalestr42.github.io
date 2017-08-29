@@ -8,7 +8,7 @@ color1: rgba(226, 159, 85, 0.5)
 color2: eb8e90 
 color_hover: rgba(203, 119, 62, 0.9)
 excerpt_separator: <!--more-->
-category: personal
+category: gamejam
 libs:
  - ue 
 platforms:

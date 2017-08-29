@@ -106,26 +106,6 @@ header .intro-text .description {
 		padding-bottom: 40px;
 	}
 }
-.hr-custom.portfolio-hr {
-	padding: 0;
-	border: none;
-	border-top: solid 5px;
-	text-align: center;
-	max-width: 650px;
-	margin: 25px auto 30px;
-}
-.hr-custom.portfolio-hr:after {
-	content: "PORTFOLIO";
-	display: inline-block;
-	position: relative;
-	top: -0.8em;
-	font-size: 3em;
-	font-weight: 900;
-	padding: 0 0.25em;
-}
-.hr-custom.portfolio-hr:after {
-	background-color: white;
-}
 .hr-custom {
 	padding: 0;
 	border: none;
@@ -610,16 +590,14 @@ fieldset[disabled] .btn-success.active {
 }
 .card-body {
 	border-top:1px solid rgba(0,0,0,.125);
-	background-color: rgba(0,0,0,.03);
 }
 header .profile {
 	height: 12em;
 	width: 12em;
 	border-radius: 10em;
 }
-.card {
-	height: 100%;
-	margin-bottom: 20px;
+.card .card-text {
+	font-size: 1em;
 }
 /*
 .card-body {
@@ -633,11 +611,6 @@ header .profile {
 	.card-title-logo {
 		text-align: right;
 	}
-	.card-columns {
-		-webkit-column-count:1;
-		-moz-column-count:1;
-		column-count: 1;
-	}
 	header .intro-text .name {
 		font-size: 1.7em;
 	}
@@ -650,23 +623,19 @@ header .profile {
 }
 
 @media (min-width: 768px) {
-	.card-columns {
-		-webkit-column-count:2;
-		-moz-column-count:2;
-		column-count: 2;
-	}
 	header .profile {
 		height: 12em;
 		width: 12em;
 	}
+	.card .card-text {
+		font-size: 1.1em;
+	}
+	.card-height {
+		height: 450px
+	}
 }
 
 @media (min-width: 992px) {
-	.card-columns {
-		-webkit-column-count:3;
-		-moz-column-count:3;
-		column-count: 3;
-	}
 	.navbar-custom .navbar-nav .nav-item .active {
 		color: white;
 		background: #18BC9C;
@@ -688,11 +657,6 @@ header .profile {
 }
 
 @media (min-width: 1200px) {
-	.card-columns {
-		-webkit-column-count:3;
-		-moz-column-count:3;
-		column-count: 3;
-	}
 	.navbar-custom .navbar-nav .nav-item .active {
 		color: white;
 		background: #18BC9C;

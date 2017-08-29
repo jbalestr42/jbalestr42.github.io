@@ -1,48 +1,51 @@
 <!-- Portfolio Grid Section -->
-<section id="portfolio">
+<section class="{{ include.class }}" id="portfolio">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2>PORTFOLIO</h2>
-				<h4 style="padding-top: 15px;">Personal Project</h4>
+				<h2>{{ include.title }}</h2>
 				<hr style="padding: 10px;" class="hr-custom">
 			</div>
 		</div>
-		<div class="card-deck">
-			{% for post in site.posts %}
-			<div class="card portfolio-card-link" style="background-color: {{ post.color1 }};">
-				<a href="#">
-					<div class="caption" style="background: {{ post.color_hover }};">
-						<div class="caption-content fa fa-plus-circle"></div>
-					</div>
-					<div class="card-title" style="margin: 15px 15px 5px 15px;">
-						<div class="row">
-							{% assign basesize = 2.0 %}
-							{% assign fontsize = post.title.size | minus: 20.0  %}
-							<h4 class="col-sm-8 col-md-8 col-lg-7 col-xl-8 card-title-text" style="font-size:{{ fontsize }}px;">{{ post.title }}</h4>
-							<h4 class="col-sm-4 col-md-4 col-lg-5 col-xl-4 card-title-logo">
-							</h4>
+		<div class="row">
+			{% for post in site.categories[include.category] %}
+			<div class="col-sm-12 col-md-6 col-lg-4" style="padding-bottom: 20px;">
+				<div class="card portfolio-card-link" style="background-color: {{ post.color1 }};">
+					<a href="#">
+						<div class="caption" style="background: {{ post.color_hover }};">
+							<div class="caption-content fa fa-plus-circle"></div>
 						</div>
-					</div>
-					<img class="card-img-top" src="{{ site.baseurl }}{{ post.img }}" alt="Card image cap">
-					<div class="card-body" style="background-color: #{{ post.color }};">
-						<p class="card-text">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-					</div>
-					<div class="card-footer" style="height: 50px;">
-						<div class="row" style="height: 100%;">
-							<div class="col-6" style="text-align: left;">
-								{% for platform in post.platforms %}
-								<div class="fa fa-{{ platform }}"></div>
-								{% endfor %}
+						<div class="card-height">
+							<div class="card-title" style="margin: 15px 15px 5px 15px;">
+								<div class="row">
+									{% assign basesize = 2.0 %}
+									{% assign fontsize = post.title.size | minus: 20.0  %}
+									<h4 class="col-sm-8 col-md-8 col-lg-7 col-xl-8 card-title-text" style="font-size:{{ fontsize }}px;">{{ post.title }}</h4>
+									<h4 class="col-sm-4 col-md-4 col-lg-5 col-xl-4 card-title-logo">
+									</h4>
+								</div>
 							</div>
-							<div class="col-6" style="text-align: right;">
-								{% for lib in post.libs %}
-								<img class="img-fluid filter-black" style="top:-13px;height: 200%; position:relative;" src="img/{{ lib }}-logo.png">
-								{% endfor %}
+							<img class="card-img-top" src="{{ site.baseurl }}{{ post.img }}" alt="Card image cap">
+							<div class="card-body" style="background-color: #{{ post.color }};">
+								<p class="card-text" style="">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
 							</div>
 						</div>
-					</div>
-				</a>
+						<div class="card-footer" style="background-color: rgba(0,0,0,.03); height: 50px;">
+							<div class="row" style="height: 100%;">
+								<div class="col-6" style="text-align: left;">
+									{% for platform in post.platforms %}
+									<div class="fa fa-{{ platform }}"></div>
+									{% endfor %}
+								</div>
+								<div class="col-6" style="text-align: right;">
+									{% for lib in post.libs %}
+									<img class="img-fluid filter-black" style="top:-13px;height: 200%; position:relative;" src="img/{{ lib }}-logo.png">
+									{% endfor %}
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
 			</div>
 			{% endfor %}
 		</div>
