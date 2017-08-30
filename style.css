@@ -603,7 +603,9 @@ header .profile {
 .card-body {
 	 height: 220px;
 }*/
-
+.i-itchio path {
+	fill: blue;
+}
 @media screen and (min-width: 576px){
 	.card-title-text {
 		text-align: left;

@@ -32,14 +32,14 @@
 						</div>
 						<div class="card-footer" style="background-color: rgba(0,0,0,.03); height: 50px;">
 							<div class="row" style="height: 100%;">
-								<div class="col-6" style="text-align: left;">
+								<div class="col-5" style="text-align: left;">
 									{% for platform in post.platforms %}
-									<div class="fa fa-{{ platform }}"></div>
+									<div style="padding-right: 7px; font-size: 22px;" class="fa fa-{{ platform }}"></div>
 									{% endfor %}
 								</div>
-								<div class="col-6" style="text-align: right;">
+								<div class="col-7" style="text-align: right;">
 									{% for lib in post.libs %}
-									<img class="img-fluid filter-black" style="top:-13px;height: 200%; position:relative;" src="img/{{ lib }}-logo.png">
+									<svg style="position: relative; top: -16px; width: 50px; height: 60px;"><use fill="black" xlink:href="#icon-{{ lib }}"></use></svg>
 									{% endfor %}
 								</div>
 							</div>
