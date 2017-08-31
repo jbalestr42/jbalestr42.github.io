@@ -522,7 +522,6 @@ fieldset[disabled] .btn-success.active {
 .portfolio-card-link {
 	display: block;
 	position: relative;
-	min-width: 300px;
 }
 
 
@@ -572,6 +571,7 @@ fieldset[disabled] .btn-success.active {
 }
 .card-title-text {
 	text-align: center;
+	color: white;
 }
 .card-title-logo {
 	text-align: center;
@@ -598,14 +598,12 @@ header .profile {
 }
 .card .card-text {
 	font-size: 1em;
+	color: white;
 }
 /*
 .card-body {
 	 height: 220px;
 }*/
-.i-itchio path {
-	fill: blue;
-}
 @media screen and (min-width: 576px){
 	.card-title-text {
 		text-align: left;
