@@ -9,6 +9,7 @@ color2: eb8e90
 color_hover: rgba(163, 103, 137, 0.9)
 excerpt_separator: <!--more-->
 category: personal
+shop: steamround
 libs:
  - cpp 
  - sfml 

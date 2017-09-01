@@ -17,12 +17,14 @@
 						</div>
 						<div class="card-height">
 							<div class="card-title" style="margin: 15px 15px 5px 15px;">
-								<div class="row">
-									{% assign basesize = 2.0 %}
+								<div class="row" style="padding-right: 15px;">
 									{% assign fontsize = post.title.size | minus: 20.0  %}
-									<h4 class="col-sm-8 col-md-8 col-lg-7 col-xl-8 card-title-text" style="font-size:{{ fontsize }}px;">{{ post.title }}</h4>
-									<h4 class="col-sm-4 col-md-4 col-lg-5 col-xl-4 card-title-logo">
-									</h4>
+									<h4 class="col-10 card-title-text" style="padding-right:0; font-size:{{ fontsize }}px;">{{ post.title }}</h4>
+									{% if post.shop %}
+									<div class="col-2 card-title-logo" style="padding: 0;">
+										<svg class="shop-logo" style=""><use fill="white" xlink:href="#icon-{{ post.shop }}"></use></svg>
+									</div>
+									{% endif %}
 								</div>
 							</div>
 							<img class="card-img-top" src="{{ site.baseurl }}{{ post.img }}" alt="Card image cap">
@@ -30,16 +32,16 @@
 								<p class="card-text" style="">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
 							</div>
 						</div>
-						<div class="card-footer" style="background-color: rgba(0,0,0,.03); height: 50px;">
+						<div class="card-footer" style="background-color: #343a40; height: 50px;">
 							<div class="row" style="height: 100%;">
 								<div class="col-5" style="text-align: left;">
 									{% for platform in post.platforms %}
-									<div style="padding-right: 7px; font-size: 22px; color: white;" class="fa fa-{{ platform }}"></div>
+										<div style="padding-right: 7px; font-size: 22px; color: white;" class="fa fa-{{ platform }}"></div>
 									{% endfor %}
 								</div>
-								<div class="col-7" style="text-align: right;">
+								<div class="col-7" style="padding-right: 10px; text-align: right;">
 									{% for lib in post.libs %}
-									<svg style="position: relative; top: -16px; width: 50px; height: 60px;"><use fill="white" xlink:href="#icon-{{ lib }}"></use></svg>
+										<svg style="right:0; position: relative; top: -6px; width: 40px; height: 40px;"><use fill="white" xlink:href="#icon-{{ lib }}"></use></svg>
 									{% endfor %}
 								</div>
 							</div>

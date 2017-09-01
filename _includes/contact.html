@@ -10,19 +10,22 @@
 		<div class="row">
 			<div class="col-1 col-md-2 col-lg-3"></div>
 			<div class="col-10 col-md-8 col-lg-6">
-				<!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-				<!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-				<form name="sentMessage" id="contactForm" onsubmit="">
+				<form method="POST" action="http://formspree.io/julien.balestrieri@gmail.com" name="sentMessage" id="contactForm" onsubmit="">
 					<div class="form-group row">
-						<label for="inputEmail3" class="col-form-label">Email</label>
-						<input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+						<label for="input-email" class="col-form-label label-form">Email</label>
+						<input type="email" name="_replyto" class="form-control" id="input-email" placeholder="Email" required>
 					</div>
 					<div class="form-group row">
-						<label>Message</label>
-						<textarea rows="5" class="form-control" placeholder="Message" id="message" required></textarea>
+						<label class="label-form">Message</label>
+						<textarea rows="5" name="body" class="form-control form-message" placeholder="Message" id="message" required></textarea>
 					</div>
 					<div class="row">
-						<button type="submit" class="btn btn-primary btn-lg">Send</button>
+						<label style="" class="alert-form col-8 col-form-label label-form alert-info">Sending message...</label>
+						<label style="" class="alert-form col-8 col-form-label label-form alert-success">Success</label>
+						<label style="" class="alert-form col-8 col-form-label label-form alert-danger">Failed</label>
+						<div class="col-8 alert-empty"></div>
+						<div class="col-1"></div>
+						<button type="submit" class="col-3 btn-send btn btn-primary btn-lg">Send</button>
 					</div>
 				</form>
 			</div>
