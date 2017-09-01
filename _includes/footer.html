@@ -9,7 +9,7 @@
                         {% if site.itchio_username %}
                         <li class="list-inline-item">
                             <a href="https://{{ site.itchio_username }}.itch.io" class="btn-social btn-outline">
-				<svg class="i-itchio" style="padding-top: 5px; width: 20px; height:20px;"><use fill="white" xlink:href="#icon-itchio"></use></svg>
+				<svg class="btn-itchio"><use fill="white" xlink:href="#icon-itchio"></use></svg>
 			    </a>
                         </li>
                         {% endif %}
@@ -61,6 +61,11 @@
                         {% if site.linkedin_url %}
                         <li class="list-inline-item">
 							<a href="{{ site.linkedin_url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        {% endif %}
+                        {% if site.email %}
+                        <li class="list-inline-item">
+							<a href="mailto:{{ site.email }}" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
                         </li>
                         {% endif %}
                     </ul>
