@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Storyfab"
+date:   2016-11-06 15:08:10 -0500
+img: img/portfolio/storyfab.jpg
+modalID: modalStoryfab
+color1: ff4040 
+color2: eb8e90 
+excerpt_separator: <!--more-->
+category: professional 
+libs:
+ - csharp 
+ - unity 
+platforms:
+ - apple
+---
+All the world's a stage.
+<!--more-->

@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Chaman VR"
+date:   2016-02-22 15:08:10 -0500
+img: img/portfolio/chaman.png
+modalID: modalChaman
+color1: ae4322 
+color2: eb8e90 
+excerpt_separator: <!--more-->
+category: personal
+libs:
+ - ue 
+ - oculus 
+platforms:
+ - windows
+ - apple 
+---
+You're lost in a scary forest inhabited by strange creatures. The night is coming, you should follow the lights...
+<!--more-->
+With 5 friends, we used a holiday period of 3 weeks to lock ourself in a house. The purpose was to learn Unreal Engine and Oculus Rift DK2. From the beginning Chaman VR was a challenge for everybody.
+It's known that VR requires powerful computers... Which we didn't have. We used a laptop for gamers. The first thing we had to get through, apart from learning the engine, was to optimize every part of the game. Using low poly meshes, fogs, LOD, ...
+During those three weeks, I used the UE4 level editor to create a luxurious forest that runs on our computer, implemented game mechanics like an enemy who moves only when you are not looking at him. And play sound according to specific moments to frighten the player. I've been accustomed to the blue print and components system of UE4.

@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Kouji"
+date:   2017-09-08 15:08:10 -0500
+img: img/portfolio/kouji.png
+modalID: modalKouji
+color1: 1eccff
+color2: eb8e90 
+excerpt_separator: <!--more-->
+category: professional 
+libs:
+ - csharp 
+ - unity 
+platforms:
+ - apple 
+ - android 
+---
+A new way to communicate.
+<!--more-->

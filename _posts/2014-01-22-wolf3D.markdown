@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Wolf 3D"
+date:   2014-01-22 15:08:10 -0500
+img: img/portfolio/chaman.png
+modalID: modaWolf
+color1: ae4322 
+color2: eb8e90 
+excerpt_separator: <!--more-->
+category: school 
+libs:
+ - c 
+platforms:
+ - apple 
+---
+Implementing a game using the Ray Casting technique.
+<!--more-->
+This project was made at 42 School with C. In three weeks every student had to use the ray casting[link] technique to generate [a fake 3D map like the famous Wolfenstein[link]. Only one function was provided : SetPixel(x, y, color).
+In my own version I have implemented collisions, animated sprites, and a custom event system to trigger special visual effects

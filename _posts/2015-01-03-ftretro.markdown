@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "FT Retro"
+date:   2015-01-03 15:08:10 -0500
+img: img/portfolio/chaman.png
+modalID: modalRetro
+color1: ae4322 
+color2: eb8e90 
+excerpt_separator: <!--more-->
+category: school 
+libs:
+ - cpp 
+platforms:
+ - apple 
+---
+Small game made at 42 school. Two days of work with C++ and Ncurse.
+<!--more-->
+Born during a weekend, Ft Retro was created at the school 42 with C++ and Ncurses. As simple as it looks, it was a great challenge to create a small schmup in two days. It's built from scratch, including basic game logic, ASCII animated sprite display, collisions, movements, enemies, planets and power up.

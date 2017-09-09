@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Human GL"
+date:   2016-02-06 15:08:10 -0500
+img: img/portfolio/chaman.png
+modalID: modalHuman
+color1: ae4322 
+color2: eb8e90 
+excerpt_separator: <!--more-->
+category: school 
+libs:
+ - cpp 
+ - opengl 
+platforms:
+ - apple 
+ - linux
+---
+Creating an animation system using OpenGL in C++.
+<!--more-->

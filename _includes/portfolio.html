@@ -9,14 +9,15 @@
 		</div>
 		<div class="row">
 			{% for post in site.categories[include.category] %}
-			<div class="col-sm-12 col-md-6 col-lg-4" style="padding-bottom: 20px;">
+			<div class="col-sm-12 col-md-6 col-lg-4" style="padding-bottom: 30px;">
 				<div class="card portfolio-card-link" style="background-color: #4D585E;">
-					<a href="#">
-						<div class="caption" style="background: {{ post.color_hover }};">
+					<a data-toggle="modal" data-target="#{{ post.modalID }}">
+						<div class="caption" style="background: {{ include.color1 }};">
 							<div class="caption-content fa fa-plus-circle"></div>
 						</div>
 						<div class="card-height">
-							<div class="card-title" style="margin: 15px 15px 5px 15px;">
+							<div class="card-title" style="width: 100%; margin-bottom: 0px; padding-top: 1px;">
+							<div style="margin: 10px 15px 0 15px;">
 								<div class="row" style="padding-right: 15px;">
 									{% assign fontsize = post.title.size | minus: 20.0  %}
 									<h4 class="col-10 card-title-text" style="padding-right:0; font-size:{{ fontsize }}px;">{{ post.title }}</h4>
@@ -27,12 +28,13 @@
 									{% endif %}
 								</div>
 							</div>
+							</div>
 							<img class="card-img-top" src="{{ site.baseurl }}{{ post.img }}" alt="Card image cap">
 							<div class="card-body" style="background-color: #{{ post.color }};">
 								<p class="card-text" style="">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
 							</div>
 						</div>
-						<div class="card-footer" style="background-color: #343a40; height: 50px;">
+						<div class="card-footer" style="background-color: #{{ post.color1 }}; height: 50px;">
 							<div class="row" style="height: 100%;">
 								<div class="col-5" style="text-align: left;">
 									{% for platform in post.platforms %}
