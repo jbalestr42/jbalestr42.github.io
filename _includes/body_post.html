@@ -1,0 +1,23 @@
+<div class="row" style="border-top-left-radius: 5px; border-top-right-radius: 5px; margin-top: 50px; background: #{{ page.color1 }};">
+	<div class="post-logo col-12 col-sm-6 d-flex align-items-center justify-content-center justify-content-sm-start">
+		{% for platform in page.platforms %}
+		<div style="padding-left: 15px; font-size: 22px; color: white;" class="fa fa-{{ platform }}"></div>
+		{% endfor %}
+		{% for lib in page.libs %}
+		<svg style="padding-left: 10px; right:0; width: 40px; height: 40px;"><use fill="white" xlink:href="#icon-{{ lib }}"></use></svg>
+		{% endfor %}
+	</div>
+	<div class="post-date col-12 col-sm-6 d-flex align-items-center justify-content-center justify-content-sm-end">
+		<span class="skills">{{ page.date  | date: "%B %Y" }}</span>
+	</div>
+</div>
+<div class="row">
+	<div style="padding: 0;" class="col-12 col-xl-6">
+		<img class="img-fluid" src="{{ site.baseurl }}{{ page.img }}" alt="">
+	</div>
+	<div class="col-12 col-xl-6" style="padding: 20px; background: #343a40;">
+		{{ page.excerpt }}
+	</div>
+</div>
+
+{{ page.content  | remove: page.excerpt }}

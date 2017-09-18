@@ -1,0 +1,13 @@
+<div class="row post-link" style="padding-top: 20px;">
+	<div class="col-12 d-flex justify-content-center">
+		<strong><a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Credits</a></strong>
+	</div>
+	<div class="col-12 collapse" id="collapseExample">
+		{% for authors in page.credits %}
+		{% assign author = site.data.credits[authors] %}
+		<div class="col-12 d-flex justify-content-center">
+			<strong><a rel="author" href="{{ author.link }}" title="{{ author.name }}">{{ author.name }}</a>  ({{ author.job }})</strong>
+		</div>
+		{% endfor %}
+	</div>
+</div>

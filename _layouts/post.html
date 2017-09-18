@@ -1,5 +1,26 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-test
+	{% include head.html %}
+
+	{% include icons.html %}
+
+	<body id="page-top" class="index">
+
+		{% include navbar.html add_url="true" %}
+
+		{% include header_post.html %}
+
+		<div class="container post-font" style="border-radius: 5px; background: #4D585E; color: white;">
+
+			{% include body_post.html %}
+
+			{% include credits.html %}
+
+		</div>
+
+		{% include javascript.html %}
+
+	</body>
+
+</html>

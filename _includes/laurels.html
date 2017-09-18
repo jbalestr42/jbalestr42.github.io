@@ -1,0 +1,16 @@
+<div class="row" style="padding-top: 10px; padding-bottom: 20px;">
+	{% for laurels in page.laurels %}
+	{% assign laurel = site.data.laurels[laurels] %}
+	<div style="padding-top: 20px;" class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+		<a style="color: inherit; text-decoration: none;" class="row" href="{{ laurel.link }}">
+			<div style="padding: 0;" class="col-1 d-flex align-items-center" data-title="{{ laurel.name }}"><svg fill="white" style="width: 35px; height: 35px;"><use xlink:href="#icon-laurel-left" fill="{{ page.iframecolor }}"></use></svg></div>
+			<div class="col-10">
+				<strong class="d-flex justify-content-center">Official Selection</strong>
+				<h4 class="d-flex justify-content-center">{{ laurel.name }}<br></h4>
+				<strong class="d-flex justify-content-center">{{ laurel.place }}</strong>
+			</div>
+			<div style="padding: 0;" class="col-1 d-flex align-items-center" data-title="{{ laurel.name }}"><svg fill="white" style="width: 35px; height: 35px;"><use xlink:href="#icon-laurel-right" fill="{{ page.iframecolor }}"></use></svg></div>
+		</a>
+	</div>
+	{% endfor %}
+</div>

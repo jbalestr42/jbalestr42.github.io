@@ -11,7 +11,7 @@
 			{% for post in site.categories[include.category] %}
 			<div class="col-sm-12 col-md-6 col-lg-4" style="padding-bottom: 30px;">
 				<div class="card portfolio-card-link" style="background-color: #4D585E;">
-					<a data-toggle="modal" data-target="#{{ post.modalID }}">
+					<a href="{{ site.url }}{{ post.url }}" data-target="#{{ post.modalID }}">
 						<div class="caption" style="background: {{ include.color1 }};">
 							<div class="caption-content fa fa-plus-circle"></div>
 						</div>
@@ -31,7 +31,7 @@
 							</div>
 							<img class="card-img-top" src="{{ site.baseurl }}{{ post.img }}" alt="Card image cap">
 							<div class="card-body" style="background-color: #{{ post.color }};">
-								<p class="card-text" style="">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+								<p class="card-text" style="">{{ post.description | remove: '<p>' | remove: '</p>' }}</p>
 							</div>
 						</div>
 						<div class="card-footer" style="background-color: #{{ post.color1 }}; height: 50px;">
