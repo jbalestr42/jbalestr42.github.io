@@ -655,6 +655,15 @@ header .profile {
 .post-link a:hover {
 	color: #343a40 !important;
 }
+.credit-link a {
+	text-decoration: none !important;
+	color: #6AACA3;
+}
+.credit-link a:hover {
+	color: #4D585E !important;
+}
+
+
 
 @media screen and (min-width: 576px){
 	header .intro-text .name {
