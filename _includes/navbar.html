@@ -1,6 +1,6 @@
 <!-- Navigation -->
 {% if include.add_url %}
-{% capture url %}{{ site.baseurl }}index.html{% endcapture %}
+{% capture url %}{{ site.url }}/index.html{% endcapture %}
 {% endif %}
 <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-custom large" id="mainNav">
 	<div class="container">
@@ -25,4 +25,3 @@
 		</div>
 	</div>
 </nav>
-{{ url }}
