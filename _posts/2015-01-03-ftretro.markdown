@@ -2,17 +2,27 @@
 layout: post
 title:  "FT Retro"
 date:   2015-01-03 15:08:10 -0500
-img: img/portfolio/chaman.png
+img: img/portfolio/ftretro.png
 modalID: modalRetro
-color1: ae4322 
-color2: eb8e90 
-excerpt_separator: <!--more-->
-category: school 
+color1: 383838
+color2: eb8e90
+description: Small game made at 42 school. Two days of work with C++ and Ncurse.
+category: school
 libs:
- - cpp 
+ - cpp
+credits:
+ - franfran
+ - julien
 platforms:
- - apple 
+ - apple
 ---
-Small game made at 42 school. Two days of work with C++ and Ncurse.
-<!--more-->
-Born during a weekend, Ft Retro was created at the school 42 with C++ and Ncurses. As simple as it looks, it was a great challenge to create a small schmup in two days. It's built from scratch, including basic game logic, ASCII animated sprite display, collisions, movements, enemies, planets and power up.
+Born during a weekend, Ft Retro was created at the school 42 with C++ and Ncurses.<br/>
+As simple as it looks, it was a great challenge to create a small schmup in two days.
+
+{% include link.html link="https://github.com/fcvalise/FtRetro" title="Download on GitHub" %}
+
+{% include text.html text="
+It's built from scratch, including basic game logic, ASCII animated sprite display, collisions, movements, enemies, planets and power up.
+"%}
+
+{% include video.html link="https://www.youtube.com/embed/Q7rNyHkXPDA?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}

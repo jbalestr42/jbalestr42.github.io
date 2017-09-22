@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Slice"
+date:   2013-06-09 15:08:10 -0500
+img: img/portfolio/slice.png
+modalID: modaFirstgame
+color1: 5b21ac
+color2: eb8e90
+category: personal
+description: My first step in the video game development.
+libs:
+ - cpp
+ - csharp
+ - sfml
+platforms:
+ - windows
+credits:
+ - julien
+---
+The purpose of this project was to discover the differents aspects of a video game.<br />
+The game has been made with C++ and SFML, the map editor with C# and WinForm.
+
+{% include text.html text="
+I have made a simple AABB (Axis Aligned Bounding Box) collision system that allowed me to move a character on the map and fire bullets on enemies. <br/>
+I have also made a simple interface to manage graphics settings.<br/>
+It was possible to make a whole map in the editor (including custom trigger) and load it in the game.
+"%}
+
+{% include video.html link="https://www.youtube.com/embed/QShNme3ynJ4?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}

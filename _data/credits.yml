@@ -7,3 +7,49 @@ lulu:
   name: 'Lucien Coycault'
   job: Graphic Designer
   link: http://www.luciencoycault.fr/
+
+
+julien:
+  name: 'Julien Balestrieri'
+  job: Developer
+  link: http://www.julienbalestrieri.com/
+
+iohann:
+  name: 'Iohann Rabesson'
+  job: Developer
+  link: https://github.com/IohannRabeson/
+
+fabien:
+  name: 'Fabien You'
+  job: Music/SoundDesigner
+  link: ''
+
+jeff:
+  name: 'Jeff Guerin'
+  job: Music
+  link: ''
+
+pierre:
+  name: 'Pierre Glory'
+  job: Sound Design
+  link: https://www.linkedin.com/in/pierre-glory-a82661a2
+
+claire:
+  name: 'Claire Allante'
+  job: 3D Artist
+  link: ''
+
+seb:
+  name: 'Sébastien Palluel'
+  job: Sound Atmoshpere
+  link: ''
+
+marion:
+  name: 'Marion Debelley'
+  job: Developer
+  link: https://www.linkedin.com/in/marion-d-4ab9a95a/
+
+gui:
+  name: 'Guillaume Lasset'
+  job: Developer
+  link: https://www.linkedin.com/in/guillaume-lasset-7206a798/?ppe=1

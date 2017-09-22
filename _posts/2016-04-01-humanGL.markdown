@@ -2,18 +2,29 @@
 layout: post
 title:  "Human GL"
 date:   2016-02-06 15:08:10 -0500
-img: img/portfolio/chaman.png
+img: img/portfolio/humangl.png
 modalID: modalHuman
-color1: ae4322 
-color2: eb8e90 
-excerpt_separator: <!--more-->
-category: school 
+color1: 17b30f
+color2: eb8e90
+category: school
+description: Creating an animation system using OpenGL in C++.
 libs:
- - cpp 
- - opengl 
+ - cpp
+ - opengl
+credits:
+ - julien
 platforms:
- - apple 
+ - apple
  - linux
 ---
-Creating an animation system using OpenGL in C++.
-<!--more-->
+This project was mad at 42 School with C++ and OpenGL.
+It’s an introduction to hierarchical modelisation.
+
+{% include link.html link="https://github.com/jbalestr42/42/tree/master/Graphics/humanGL" title="Download on GitHub" %}
+
+{% include text.html text="
+The purpose was to make an animation system in which each object move according to his parent transform and it's local transform.<br/>
+I have implemented my own matrix class to manage position, rotation and scale.
+"%}
+
+{% include video.html link="https://www.youtube.com/embed/rFgy2TLeeMI?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}

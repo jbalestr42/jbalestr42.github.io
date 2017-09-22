@@ -4,19 +4,36 @@ title:  "Graphics Engine"
 date:   2016-05-02 15:08:10 -0500
 img: img/portfolio/graphicsengine.png
 modalID: modalGraphics
-color1: ae4322 
-color2: eb8e90 
-excerpt_separator: <!--more-->
+color1: 331b22
+color2: eb8e90
 category: personal
+description: I started this project to learn OpenGL and rendering techniques.
 libs:
- - cpp 
- - opengl 
+ - cpp
+ - opengl
+credits:
+ - julien
 platforms:
  - windows
- - apple 
+ - apple
  - linux
 ---
-I started this project to learn OpenGL and rendering techniques.
-<!--more-->
-The engine use phong shading with all kind of lights.
-The implementation of a Cascade Shadow Mapping is in progress.
+I started this project to learn rendering techniques and to be familiar with shaders programming using GLSL.<br/>
+<br/>
+Developped in C++ with OpenGL, the code can compile on Windows, Mac and Linux.<br/>
+The engine use phong shading and it's possible to add multiple point lights, spot lights and directional lights.
+
+{% include link.html link="https://github.com/jbalestr42/GraphicsEngine" title="Download on GitHub" %}
+
+{% include text.html text="
+   On the following video there is a red point light, a green spotlight and a white directional light.
+"%}
+
+{% include video.html link="https://www.youtube.com/embed/qSY0bUQsBNs?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}
+
+{% include text.html text="
+   The implementation of a Cascade Shadow Mapping is in progress.<br/>
+   We can notice three area in the video, the red area which is the nearest from the camera with the most accurate shadow, the green area in the middle have less accurate shadow, and the blue area which is the farthest and thus the lowest shadow quality.
+"%}
+
+{% include video.html link="https://www.youtube.com/embed/Vp6IKhyT248?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}
