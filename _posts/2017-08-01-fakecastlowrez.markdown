@@ -18,6 +18,35 @@ platforms:
  - windows
  - apple
 ---
-Fake Cast Low Rez has been more about experimentations than creating a game.<br/>
+The idea was to use cellular automaton as an element of gameplay in a game. The Low Rez Jam was the perfect occasion to avoid performance problems linked to the complexity of that model.
 
-Ajouter le jeu unity ici
+{% include link.html link="https://octostudio.itch.io/fake-cast-low-rez" title="Download on Itch.io" %}
+
+{% include text.html text="
+Fake Cast Low Rez has been more about experimentations than creating a game. The system behind the game allows mixing several rules, to consider a sprite as an element of the grid and to use the colors of a sprite as a rule. Every object can possess his own cellular system and finally be printed on the main grid. There's no camera on the scene. Unfortunately, because of the lack of time, most of these features are barely used.
+"%}
+
+<div style="padding-top: 20px;" class="row">
+ <div class="col-0 col-lg-1"></div>
+  <div class="col-12 col-lg-10 d-flex justify-content-center">
+   <iframe class="" src="//v6p9d9t4.ssl.hwcdn.net/html/568550/FakeCastLowResWebGL/index.html" frameborder="0" width="510px" height="510px"></iframe>
+  </div>
+ <div class="col-0 col-lg-1"></div>
+</div>
+
+<div class="row">
+ <div class="col-0 col-lg-1"></div>
+ <div class="col-12 col-lg-10 d-flex justify-content-center" align="center">
+The idea of that game was to force the player to use fake casting.<br/>
+(start casting and stop so that the enemy waste his mute)<br/>
+<br/>
+[WASD] Move [IJKL]<br/>
+[Q] Damage [U]<br/>
+[E] Shield [O]<br/>
+[R] Mute [P]<br/>
+<br/>
+The shield is mainly a fake target. Move to interrupt casting. Try to survive.<br/>
+You can play with some cellular automata rules with [1-7]<br/>
+ </div>
+ <div class="col-0 col-lg-1"></div>
+</div>

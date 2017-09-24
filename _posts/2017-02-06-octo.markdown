@@ -17,10 +17,10 @@ platforms:
  - apple
 credits:
  - franfran
- - lulu
  - iohann
  - julien
  - gui
+ - lulu
  - fabien
  - jeff
  - pierre

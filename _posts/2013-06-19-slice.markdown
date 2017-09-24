@@ -23,7 +23,7 @@ The game has been made with C++ and SFML, the map editor with C# and WinForm.
 {% include text.html text="
 I have made a simple AABB (Axis Aligned Bounding Box) collision system that allowed me to move a character on the map and fire bullets on enemies. <br/>
 I have also made a simple interface to manage graphics settings.<br/>
-It was possible to make a whole map in the editor (including custom trigger) and load it in the game.
+It was possible to make a whole map in the editor including custom trigger and load it in the game.
 "%}
 
 {% include video.html link="https://www.youtube.com/embed/QShNme3ynJ4?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}

@@ -6,7 +6,7 @@ img: img/portfolio/ftretro.png
 modalID: modalRetro
 color1: 383838
 color2: eb8e90
-description: Small game made at 42 school. Two days of work with C++ and Ncurse.
+description: Small game in command prompt. Two days of work with C++ and Ncurse.
 category: school
 libs:
  - cpp

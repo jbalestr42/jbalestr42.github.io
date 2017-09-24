@@ -12,10 +12,10 @@ libs:
  - ue
  - oculus
 credits:
- - claire
  - franfran
- - lulu
  - julien
+ - lulu
+ - claire
  - pierre
  - seb
 platforms:
@@ -24,8 +24,11 @@ platforms:
 carousel:
  - img/portfolio/chaman_1.png
  - img/portfolio/chaman_2.png
+ - img/portfolio/chaman_3.png
+ - img/portfolio/chaman_4.png
 ---
-With 5 friends, we used a holiday period of 3 weeks to lock ourself in a house. The purpose was to learn Unreal Engine and Oculus Rift DK2. From the beginning Chaman VR was a challenge for everybody.
+With 5 friends, we used a holiday period of 3 weeks to lock ourself in a house. The purpose was to learn Unreal Engine and Oculus Rift DK2.<br/>
+From the beginning Chaman VR was a challenge for everybody.
 
 {% include link.html link="https://octostudio.itch.io/chaman" title="Download on Itch.io" %}
 

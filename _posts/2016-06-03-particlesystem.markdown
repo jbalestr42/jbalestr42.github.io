@@ -7,7 +7,7 @@ modalID: modalParticle
 color1: d3b000
 color2: eb8e90
 category: school
-description: This project is an introduction to parallel computing using OpenGL and OpenCL.
+description: An introduction to parallel computing using OpenGL and OpenCL.
 libs:
  - cpp
  - opengl

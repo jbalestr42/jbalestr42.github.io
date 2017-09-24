@@ -13,9 +13,9 @@ libs:
  - unity
 credits:
  - franfran
+ - julien
  - lulu
  - claire
- - julien
 platforms:
  - windows
  - apple
