@@ -4,16 +4,28 @@ title:  "Kouji"
 date:   2017-09-08 15:08:10 -0500
 img: img/portfolio/kouji.png
 modalID: modalKouji
-color1: 1eccff
-color2: eb8e90 
-excerpt_separator: <!--more-->
-category: professional 
+color1: 2fd1ff
+color2: eb8e90
+category: professional
+description: Augmented Reality to communicate with your friends !
 libs:
- - csharp 
- - unity 
+ - csharp
+ - unity
+credits:
+ - spooklight
 platforms:
- - apple 
- - android 
+ - apple
+ - android
 ---
-A new way to communicate.
-<!--more-->
+What if every single one of us had a little creature - let's call it a cute digital clone - here to do all your chores? Wouldn't that be awesome?<br/>
+Well, unfortunately, that's not (yet) possible.
+<br/><br/>
+What is possible though is to create your unique avatar, choose a mood, film 8 seconds of your unique life and share it with your amazing friends!
+This is Kouji and it's a new way to communicate with your friends or create awesome content for your precious Instagram profile.
+
+{% include link.html link="http://www.kouji-app.com/" title="Download it on Android and iOS !" %}
+
+{% include text.html text="
+"%}
+
+{% include video.html link="https://www.youtube.com/embed/NdmzKqwLi-I?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}
