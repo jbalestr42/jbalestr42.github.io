@@ -2,17 +2,26 @@
 layout: post
 title:  "Storyfab"
 date:   2016-11-06 15:08:10 -0500
-img: img/portfolio/storyfab.jpg
+img: img/portfolio/storyfab.png
 modalID: modalStoryfab
-color1: ff4040 
-color2: eb8e90 
-excerpt_separator: <!--more-->
-category: professional 
+color1: ff4040
+color2: eb8e90
+category: professional
+description: Augmented Reality to transform your desk in a movie studio with virtual actors and decors !
 libs:
- - csharp 
- - unity 
+ - csharp
+ - unity
+credits:
+ - spooklight
 platforms:
  - apple
 ---
-All the world's a stage.
-<!--more-->
+Storyfab reinvents video storytelling by giving you all the tools to create short films using virtual actors, decors and special effects and share them with everyone.<br/>
+With Storyfab, the entire world is your stage; you'll only need some imagination and your phone. You can also use Storyfab to make video greeting cards and postcards or simply send a quick message to your friends!
+
+{% include link.html link="http://www.story-fab.com/" title="Download it on iOS !" %}
+
+{% include text.html text="
+"%}
+
+{% include video.html link="https://www.youtube.com/embed/qAeH-oiC0Cc?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}
