@@ -15,7 +15,7 @@ credits:
 platforms:
  - apple
 ---
-This project was made at 42 School with C.<br/>
+This project was made at the school 42 with C.<br/>
 In three weeks every student had to use the ray casting technique to generate a fake 3D map like the famous Wolfenstein.<br/>
 Only one function was provided : SetPixel(x, y, color).
 

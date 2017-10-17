@@ -17,7 +17,7 @@ platforms:
  - apple
  - linux
 ---
-This project was mad at 42 School with C++ and OpenGL.
+This project was mad at the school 42 with C++ and OpenGL.<br/>
 It’s an introduction to hierarchical modelisation.
 
 {% include link.html link="https://github.com/jbalestr42/42/tree/master/Graphics/humanGL" title="Download on GitHub" %}

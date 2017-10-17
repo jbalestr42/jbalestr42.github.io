@@ -31,7 +31,8 @@ You need to combine keys in rhythm to protect, reload or fire.<br/>
 {% include text.html text="
 All actions happen at the same time. You just need gamepad controllers and some friends.
 The gameplay come from a game that we used to play with friends during camping. The rhythm is given by clapping hands twice, then make a sign that represents one of the possible action (fire, shield, reload). It's the cowboy version of shifumi.
-It was the first project on Unity for all the team members, made in three days. My role was to create characters movement and add animations.
+It was the first project on Unity for all the team members, made in three days.<br/>
+My role was to manage the game mecanics and the visual effects.
 "%}
 
 {% include carousel.html %}

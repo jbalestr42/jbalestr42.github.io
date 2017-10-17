@@ -26,6 +26,7 @@ Only one function was provided : SetPixel(x, y, color).
 
 {% include text.html text="
 Those videos are the result of 4 peoples, implementing all basic shapes (planes, cubes, sphere, cones), lights (specular, diffuse, multiple), reflection and refraction.<br/>
+<br/>
 It's a CPU program and those videos are not in real time.
 "%}
 

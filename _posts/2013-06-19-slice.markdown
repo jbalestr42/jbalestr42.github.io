@@ -21,7 +21,7 @@ The purpose of this project was to discover the differents aspects of a video ga
 The game has been made with C++ and SFML, the map editor with C# and WinForm.
 
 {% include text.html text="
-I have made a simple AABB (Axis Aligned Bounding Box) collision system that allowed me to move a character on the map and fire bullets on enemies. <br/>
+I have made a AABB (Axis Aligned Bounding Box) collision system that allowed me to move a character on the map and fire bullets on enemies. <br/>
 I have also made a simple interface to manage graphics settings.<br/>
 It was possible to make a whole map in the editor including custom trigger and load it in the game.
 "%}

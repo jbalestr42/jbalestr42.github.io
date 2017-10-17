@@ -33,7 +33,7 @@ From the beginning Chaman VR was a challenge for everybody.
 {% include link.html link="https://octostudio.itch.io/chaman" title="Download on Itch.io" %}
 
 {% include text.html text="
-   It's known that VR requires powerful computers... Which we didn't have. We used a laptop for gamers. The first thing we had to get through, apart from learning the engine, was to optimize every part of the game. Using low poly meshes, fogs, LOD, ...<br/><br/>
+   It's known that VR requires powerful computers... Which we didn't have. We used a laptop for gamers. The first thing we had to get through, apart from learning the engine, was to optimize every part of the game. Using low poly meshes, fogs, LOD, ...<br/>
 "%}
 
 {% include carousel.html %}
