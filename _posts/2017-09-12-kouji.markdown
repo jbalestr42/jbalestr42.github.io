@@ -26,6 +26,13 @@ This is Kouji and it's a new way to communicate with your friends or create awes
 {% include link.html link="http://www.kouji-app.com/" title="Download it on Android and iOS !" %}
 
 {% include text.html text="
+
+My main task was to manage the customization of the avatar from scratch.<br/>
+I enjoyed to work on this subject, mainly because it's really interesting to work with artists and understand what they want.<br/>
+The challenge was huge, I had few time and big constraints: the application must be as lightweight as possible, but the customization must remains unlimited and also we need the posibility to add new content without updating the application from the store.<br/>
+<br/><br/>
+The most interesting part for me was to show creative techniques to make this possible. I learned a lot, mostly about shaders and rendering.<br/>
+In parallel, I did a Unity tool allowing artists to easily integrate customization content.
 "%}
 
 {% include video.html link="https://www.youtube.com/embed/NdmzKqwLi-I?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}
