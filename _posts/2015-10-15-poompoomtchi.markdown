@@ -23,7 +23,7 @@ carousel:
  - img/portfolio/poom_1.gif
  - img/portfolio/poom_2.gif
 ---
-POOM POOM TCHI! is a multiplayer platformer 2D made for Ludum Dare 34.<br/>
+POOM POOM TCHI! is a multiplayer platformer 2D made for [Ludum Dare 34]({{ site.data.links.ld }}).<br/>
 You need to combine keys in rhythm to protect, reload or fire.<br/>
 
 {% include link.html link="https://octostudio.itch.io/poom-poom-tchi" title="Download on Itch.io" %}

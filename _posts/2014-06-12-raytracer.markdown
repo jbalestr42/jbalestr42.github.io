@@ -18,8 +18,8 @@ credits:
 platforms:
  - apple
 ---
-This project was made at the school 42 with C.<br/>
-In two weeks every student had to use the ray tracing technique to generate 3D images, followed by a month with a team of four people.<br/>
+This project was made at the school [42]({{ site.data.links.ft }}) with C.<br/>
+In two weeks every student had to use the [ray tracing technique]({{ site.data.links.raytracing }}) to generate 3D images, followed by a month with a team of four people.<br/>
 Only one function was provided : SetPixel(x, y, color).
 
 {% include link.html link="https://github.com/jbalestr42/42/tree/master/Graphics/ray_tracer" title="Download on GitHub" %}

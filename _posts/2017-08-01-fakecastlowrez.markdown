@@ -18,7 +18,7 @@ platforms:
  - windows
  - apple
 ---
-The idea was to use cellular automaton as an element of gameplay in a game. The Low Rez Jam was the perfect occasion to avoid performance problems linked to the complexity of that model.
+The idea was to use [cellular automaton]({{ site.data.links.cellular }}) as an element of gameplay in a game. The [Low Rez Jam]({{ site.data.links.lrj }}) was the perfect occasion to avoid performance problems linked to the complexity of that model.
 
 {% include link.html link="https://octostudio.itch.io/fake-cast-low-rez" title="Download on Itch.io" %}
 

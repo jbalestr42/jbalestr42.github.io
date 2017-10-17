@@ -18,7 +18,7 @@ credits:
  - julien
 ---
 The purpose of this project was to discover the differents aspects of a video game.<br />
-The game has been made with C++ and SFML, the map editor with C# and WinForm.
+The game has been made with C++ and [SFML]({{ site.data.links.sfml }}), the map editor with C# and [WinForm]({{ site.data.links.wf }}).
 
 {% include text.html text="
 I have made a AABB (Axis Aligned Bounding Box) collision system that allowed me to move a character on the map and fire bullets on enemies. <br/>

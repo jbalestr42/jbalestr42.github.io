@@ -21,7 +21,7 @@ platforms:
 I started this project to learn rendering techniques and to be familiar with shaders programming using GLSL.<br/>
 <br/>
 Developped in C++ with OpenGL, the code can compile on Windows, Mac and Linux.<br/>
-The engine use phong shading and it's possible to add multiple point lights, spot lights and directional lights.
+The engine use [phong]({{ site.data.links.phong }}) shading and it's possible to add multiple point lights, spot lights and directional lights.
 
 {% include link.html link="https://github.com/jbalestr42/GraphicsEngine" title="Download on GitHub" %}
 
@@ -32,7 +32,7 @@ The engine use phong shading and it's possible to add multiple point lights, spo
 {% include video.html link="https://www.youtube.com/embed/qSY0bUQsBNs?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}
 
 {% include text.html text="
-   The implementation of a Cascade Shadow Mapping is in progress.<br/>
+   The implementation of a <a href='https://msdn.microsoft.com/en-us/library/windows/desktop/ee416307(v=vs.85).aspx'>Cascade Shadow Mapping</a> is in progress.<br/>
    We can notice three area in the video, the red area which is the nearest from the camera with the most accurate shadow, the green area in the middle have less accurate shadow, and the blue area which is the farthest and thus the lowest shadow quality.
 "%}
 
