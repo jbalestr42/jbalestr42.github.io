@@ -22,7 +22,7 @@ With Storyfab, the entire world is your stage; you'll only need some imagination
 {% include link.html link="http://www.story-fab.com/" title="Download it on iOS !" %}
 
 {% include text.html text="
-I joined the project a years after it's creation.<br/>
+I joined the project a year after it's creation.<br/>
 My first tasks were to clean up and optimize the current code.<br/>
 Then, I started a new fonctionality called nonlinear scenario. It's a premade scenario in which the user will make choices that change the story.
 "%}

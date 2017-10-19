@@ -17,8 +17,8 @@ platforms:
 credits:
  - julien
 ---
-This project was made at the school [42]({{ site.data.links.ft }}) with C, OpenCL and OpenGL.<br/>
-It shows millions of particle moving around.
+This project has been made at the school [42]({{ site.data.links.ft }}) with C, OpenCL and OpenGL.<br/>
+It shows millions of particles moving around.
 
 {% include link.html link="https://github.com/jbalestr42/42/tree/master/Graphics/particle_system" title="Download on GitHub" %}
 

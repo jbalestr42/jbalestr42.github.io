@@ -15,7 +15,7 @@ credits:
 platforms:
  - apple
 ---
-This project was made at the school [42]({{ site.data.links.ft }}) with C.<br/>
+This project has been made at the school [42]({{ site.data.links.ft }}) with C.<br/>
 In three weeks every student had to use the [ray casting technique]({{ site.data.links.raycasting }}) to generate a 3D map like the famous [Wolfenstein]({{ site.data.links.wolfenstein }}).<br/>
 Only one function was provided : SetPixel(x, y, color).
 

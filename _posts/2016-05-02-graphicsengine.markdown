@@ -33,7 +33,10 @@ The engine use [phong]({{ site.data.links.phong }}) shading and it's possible to
 
 {% include text.html text="
    The implementation of a <a href='https://msdn.microsoft.com/en-us/library/windows/desktop/ee416307(v=vs.85).aspx'>Cascade Shadow Mapping</a> is in progress.<br/>
-   We can notice three area in the video, the red area which is the nearest from the camera with the most accurate shadow, the green area in the middle have less accurate shadow, and the blue area which is the farthest and thus the lowest shadow quality.
+   We can notice three areas in the video:<br/>
+   - The red area which is the nearest from the camera with the most accurate shadow<br/>
+   - The green area in the middle which have less accurate shadow<br/>
+   - The blue area which is the farthest and thus the lowest shadow quality<br/>
 "%}
 
 {% include video.html link="https://www.youtube.com/embed/Vp6IKhyT248?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}
