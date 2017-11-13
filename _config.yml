@@ -8,7 +8,7 @@
 # Site settings
 title: Julien Balestrieri
 email: julien.balestrieri@gmail.com
-short_description: Video Game Developper
+short_description: Video Game Developer
 description: > # this means to ignore newlines until "baseurl:"
  Game Developper 
 baseurl: "/" # the subpath of your site, e.g. /blog
