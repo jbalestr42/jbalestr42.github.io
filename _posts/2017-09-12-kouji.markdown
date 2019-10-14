@@ -7,7 +7,7 @@ modalID: modalKouji
 color1: 2fd1ff
 color2: eb8e90
 category: professional
-description: Augmented Reality to communicate with your friends !
+description: Augmented Reality to communicate with your friends!
 libs:
  - csharp
  - unity
@@ -23,7 +23,7 @@ Well, unfortunately, that's not (yet) possible.
 What is possible though is to create your unique avatar, choose a mood, film 8 seconds of your unique life and share it with your amazing friends!
 This is Kouji and it's a new way to communicate with your friends or create awesome content for your precious Instagram profile.
 
-{% include link.html link="http://www.kouji-app.com/" title="Download it on Android and iOS !" %}
+{% include link.html link="http://www.kouji-app.com/" title="Download it on Android and iOS!" %}
 
 {% include text.html text="
 

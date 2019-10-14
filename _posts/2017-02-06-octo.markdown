@@ -8,7 +8,7 @@ color1: c4798c
 color2: eb8e90 
 category: personal
 shop: steamround
-description: My first game published on steam !<br/>It's a 2D platformer about an amnesiac octopus.
+description: My first game published on steam!<br/>It's a 2D platformer about an amnesiac octopus.
 libs:
  - cpp 
  - sfml 

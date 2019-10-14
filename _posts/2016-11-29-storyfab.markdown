@@ -7,7 +7,7 @@ modalID: modalStoryfab
 color1: ff4040
 color2: eb8e90
 category: professional
-description: Augmented Reality to transform your desk in a movie studio with virtual actors and decors !
+description: Augmented Reality to transform your desk in a movie studio with virtual actors and decors!
 libs:
  - csharp
  - unity
@@ -19,7 +19,7 @@ platforms:
 Storyfab reinvents video storytelling by giving you all the tools to create short films using virtual actors, decors and special effects and share them with everyone.<br/>
 With Storyfab, the entire world is your stage; you'll only need some imagination and your phone. You can also use Storyfab to make video greeting cards and postcards or simply send a quick message to your friends!
 
-{% include link.html link="http://www.story-fab.com/" title="Download it on iOS !" %}
+{% include link.html link="http://www.story-fab.com/" title="Download it on iOS!" %}
 
 {% include text.html text="
 I joined the project a year after it's creation.<br/>
