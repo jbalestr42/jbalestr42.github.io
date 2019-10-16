@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Pin Table"
+date:   2018-01-18 16:00:00 -0500
+img: img/portfolio/pintable.png
+modalID: modalPintable
+color1: f1bd31 
+color2: 395f85 
+category: personal
+description: I did this project only to have fun and learn more about shaders :D 
+libs:
+ - csharp
+ - unity
+platforms:
+ - windows
+credits:
+ - julien
+---
+<br/>
+My own implementation of the "Pin Table".<br/>
+The idea came by looking at the site [Game Art Tricks]({{ site.data.links.gameart }}) from [Simon Schreibt]({{ site.data.links.simonschreibt }}).
+
+{% include link.html link="https://github.com/jbalestr42/PinTable" title="Download on GitHub" %}
+
+{% include text.html text="
+I choose to generate the mesh procedurally in order to tweak multiples parameters to have the best result.<br/>
+I also implemented transitions to change the scene with a custom effect.<br/>
+The code can be improved in many way but the intention was only to have fun :D
+"%}
+
+<div style="padding-top: 20px;" class="row">
+ <div class="col-0 col-lg-1"></div>
+  <div class="col-12 col-lg-10 d-flex justify-content-center">
+   <iframe src="https://i.simmer.io/@BanyFitch/pintable" style="width:960px;height:600px;border:0"></iframe>
+  </div>
+ <div class="col-0 col-lg-1"></div>
+</div>
+
+<div class="row">
+ <div class="col-0 col-lg-1"></div>
+ <div class="col-12 col-lg-10 d-flex justify-content-center" align="center">
+
+<br/>
+[WD] or [Left/Right arrow] Change scene<br/>
+[G] Show debug<br/>
+[H] Hide controls<br/>
+<br/>
+ </div>
+ <div class="col-0 col-lg-1"></div>
+</div>
