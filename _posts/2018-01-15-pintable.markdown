@@ -16,7 +16,6 @@ platforms:
 credits:
  - julien
 ---
-<br/>
 My own implementation of the "Pin Table".<br/>
 The idea came by looking at the site [Game Art Tricks]({{ site.data.links.gameart }}) from [Simon Schreibt]({{ site.data.links.simonschreibt }}).
 
