@@ -29,7 +29,7 @@ Fake Cast Low Rez has been more about experimentations than creating a game. The
 <div style="padding-top: 20px;" class="row">
  <div class="col-0 col-lg-1"></div>
   <div class="col-12 col-lg-10 d-flex justify-content-center">
-   <iframe class="" src="//v6p9d9t4.ssl.hwcdn.net/html/568550/FakeCastLowResWebGL/index.html" frameborder="0" width="510px" height="510px"></iframe>
+   <iframe src="https://itch.io/embed/168358" height="167" width="552" frameborder="0"></iframe>
   </div>
  <div class="col-0 col-lg-1"></div>
 </div>
@@ -37,16 +37,13 @@ Fake Cast Low Rez has been more about experimentations than creating a game. The
 <div class="row">
  <div class="col-0 col-lg-1"></div>
  <div class="col-12 col-lg-10 d-flex justify-content-center" align="center">
+
+<br/>
 The idea of that game was to force the player to use fake casting.<br/>
 (start casting and stop so that the enemy waste his mute)<br/>
-<br/>
-[WASD] Move [IJKL]<br/>
-[Q] Damage [U]<br/>
-[E] Shield [O]<br/>
-[R] Mute [P]<br/>
-<br/>
 The shield is mainly a fake target. Move to interrupt casting. Try to survive.<br/>
 You can play with some cellular automata rules with [1-7]<br/>
+
  </div>
  <div class="col-0 col-lg-1"></div>
 </div>
