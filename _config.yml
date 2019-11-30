@@ -14,6 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://jbalestr42.github.io" # the base hostname & protocol for your site
 permalink: /:title/
+future: true # show the future post
 
 # Social media profiles - feel free to add more here
 #twitter_username: SBootstrap
@@ -29,10 +30,10 @@ steam_link: true
 linkedin_url: https://www.linkedin.com/in/julienbalestrieri/
 
 # Address information
-address_street: 3034 Melrose Place
-address_city: Beverly Hills
-address_state: CA
-address_zip: 90201
+address_street: 33 rue principale
+address_city: Haute-Kontz
+address_state: France
+address_zip: 57480
 
 # Build settings
 markdown: kramdown
