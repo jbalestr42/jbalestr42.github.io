@@ -36,14 +36,23 @@
 						</div>
 						<div class="card-footer" style="background-color: #{{ post.color1 }}; height: 50px;">
 							<div class="row" style="height: 100%;">
-								<div class="col-5" style="text-align: left;">
+								{% if post.specials %}
+									<div class="col-1" style="text-align: left;">
+									<svg style="left:0; position: relative; top: -6px; width: 35px; height: 35px;"><use fill="white" xlink:href="#icon-switch"></use></svg>
+									</div>
+								{% endif %}
+								<div class="col-5 col-md-6" style="padding-left: 25px; text-align: left;">
 									{% for platform in post.platforms %}
 										<div style="padding-right: 7px; font-size: 22px; color: white;" class="fab fa-{{ platform }}"></div>
 									{% endfor %}
 								</div>
-								<div class="col-7" style="padding-right: 10px; text-align: right;">
+								{% unless post.specials %}
+									<div class="col-1" style="text-align: left;">
+									</div>
+								{% endunless %}
+								<div class="col-5 col-md-4" style="padding-right: 0px; text-align: right; right: -15px;">
 									{% for lib in post.libs %}
-										<svg style="right:0; position: relative; top: -6px; width: 40px; height: 40px;"><use fill="white" xlink:href="#icon-{{ lib }}"></use></svg>
+										<svg style="right:0; position: relative; top: -3px; width: 35px; height: 35px;"><use fill="white" xlink:href="#icon-{{ lib }}"></use></svg>
 									{% endfor %}
 								</div>
 							</div>

@@ -58,3 +58,13 @@ spooklight:
     name: 'Spooklight Studio'
     job: The team
     link: http://www.spooklight.ch/
+
+343:
+    name: '343 Industries'
+    job: Studio
+    link: https://www.343industries.com/
+
+bhvr:
+    name: 'Behaviour Interactive'
+    job: Studio
+    link: https://www.bhvr.com/

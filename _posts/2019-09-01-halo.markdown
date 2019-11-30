@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Halo: The Master Chief Collection"
+date:   2018-09-01 16:00:00 -0500
+img: img/portfolio/halo.jpg
+modalID: modalHalo
+color1: 2f3d5d
+color2: 2d427b
+category: professional
+description: Well, it's Halo :D
+libs:
+ - cpp 
+ - c 
+credits:
+ - 343
+ - bhvr
+platforms:
+ - xbox
+---
+When I joined [Behaviour Interactive]({{ site.data.links.bhvr }}) I was really surprised to hear that I was gonna work on this project!<br/>
+That was my first time working on a AAA and it was really impressive to understand how many people are involved in such project. 
+
+{% include text.html text="
+I joined the team as a system programmer and I had to deal with a lot of different systems, network, UI, gameflow, input, etc.
+<br/>
+"%}
+
+{% include video.html link="https://www.youtube.com/embed/BdCKXQ3R3d0?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}
+
+{% include text.html text="
+That was really exciting to work on such legendary game!
+"%}

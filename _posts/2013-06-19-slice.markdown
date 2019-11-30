@@ -10,7 +10,6 @@ category: personal
 description: My first step in the video game development.
 libs:
  - cpp
- - csharp
  - sfml
 platforms:
  - windows
