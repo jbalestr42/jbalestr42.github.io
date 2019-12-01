@@ -37,3 +37,5 @@ address_zip: 57480
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-slate
