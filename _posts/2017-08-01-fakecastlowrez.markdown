@@ -37,13 +37,6 @@ Fake Cast Low Rez has been more about experimentations than creating a game. The
 <div class="row">
  <div class="col-0 col-lg-1"></div>
  <div class="col-12 col-lg-10 d-flex justify-content-center" align="center">
-
-<br/>
-The idea of that game was to force the player to use fake casting.<br/>
-(start casting and stop so that the enemy waste his mute)<br/>
-The shield is mainly a fake target. Move to interrupt casting. Try to survive.<br/>
-You can play with some cellular automata rules with [1-7]<br/>
-
  </div>
  <div class="col-0 col-lg-1"></div>
 </div>
