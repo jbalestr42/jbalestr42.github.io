@@ -24,7 +24,7 @@ The idea came by looking at the site [Game Art Tricks]({{ site.data.links.gamear
 {% include text.html text="
 I choose to generate the mesh procedurally in order to tweak multiples parameters to have the best result.<br/>
 I also implemented transitions to change the scene with a custom effect.<br/>
-The code can be improved in many way but the intention was only to have fun :D
+The code can be improved in many way but the intention was to learn new things and have fun :D
 "%}
 
 <div style="padding-top: 20px;" class="row">
@@ -38,12 +38,6 @@ The code can be improved in many way but the intention was only to have fun :D
 <div class="row">
  <div class="col-0 col-lg-1"></div>
  <div class="col-12 col-lg-10 d-flex justify-content-center" align="center">
-
-<br/>
-[WD] or [Left/Right arrow] Change scene<br/>
-[G] Show debug<br/>
-[H] Hide controls<br/>
-<br/>
  </div>
  <div class="col-0 col-lg-1"></div>
 </div>
