@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "L-System"
+date:   2019-10-05 16:00:00 -0500
+img: img/portfolio/lsystem.png
+modalID: modalLsystem
+color1: 1C2029 
+color2: 395f85 
+category: personal
+description: I wanted to make trees, what better way than using L-System?
+libs:
+ - csharp
+ - unity
+platforms:
+ - windows
+credits:
+ - julien
+---
+My first intention was to grow some trees and L-System are well known for that.<br/>
+You can find a lot of examples [here]({{ site.data.links.paullsystem }}).
+
+{% include text.html text="
+Making a tree with L-System is quite simple, but it becomes a way more tricky when you want to interpolate between each iteration.<br/>
+There are only 4 examples in the demo but it's quite easy to create more tree by modifying the L-System's rules.
+"%}
+
+{% include small_link.html link="https://github.com/jbalestr42/L-System" title="Download on GitHub" %}
+
+{% include unity_game.html url="https://i.simmer.io/@BanyFitch/l-system" %}
