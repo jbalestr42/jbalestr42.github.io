@@ -20,8 +20,6 @@ platforms:
 ---
 The idea was to use [cellular automaton]({{ site.data.links.cellular }}) as an element of gameplay in a game. The [Low Rez Jam]({{ site.data.links.lrj }}) was the perfect occasion to avoid performance problems linked to the complexity of that model.
 
-{% include link.html link="https://octostudio.itch.io/fake-cast-low-rez" title="Download on Itch.io" %}
-
 {% include text.html text="
 Fake Cast Low Rez has been more about experimentations than creating a game. The system behind the game allows mixing several rules, to consider a sprite as an element of the grid and to use the colors of a sprite as a rule. Every object can possess his own cellular system and finally be printed on the main grid. There's no camera on the scene. Unfortunately, because of the lack of time, most of these features are barely used.
 "%}

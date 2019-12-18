@@ -19,8 +19,6 @@ platforms:
 Storyfab reinvents video storytelling by giving you all the tools to create short films using virtual actors, decors and special effects and share them with everyone.<br/>
 With Storyfab, the entire world is your stage; you'll only need some imagination and your phone. You can also use Storyfab to make video greeting cards and postcards or simply send a quick message to your friends!
 
-{% include link.html link="http://www.story-fab.com/" title="Download it on iOS!" %}
-
 {% include text.html text="
 I joined the project a year after it's creation.<br/>
 My first tasks were to clean up and optimize the current code.<br/>

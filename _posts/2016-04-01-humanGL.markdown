@@ -20,11 +20,11 @@ platforms:
 This project has been made at the school [42]({{ site.data.links.ft }}) with C++ and OpenGL.<br/>
 It’s an introduction to hierarchical modelisation.
 
-{% include link.html link="https://github.com/jbalestr42/42/tree/master/Graphics/humanGL" title="Download on GitHub" %}
-
 {% include text.html text="
 The purpose was to make an animation system in which each object move according to his parent's transform and it's own transform.<br/>
 I have implemented my own matrix class to manage position, rotation and scale.
 "%}
+
+{% include small_link.html link="https://github.com/jbalestr42/42/tree/master/Graphics/humanGL" title="Download on GitHub" %}
 
 {% include video.html link="https://www.youtube.com/embed/rFgy2TLeeMI?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}

@@ -23,11 +23,11 @@ I started this project to learn rendering techniques and to be familiar with sha
 Developped in C++ with OpenGL, the code can compile on Windows, Mac and Linux.<br/>
 The engine use [phong]({{ site.data.links.phong }}) shading and it's possible to add multiple point lights, spot lights and directional lights.
 
-{% include link.html link="https://github.com/jbalestr42/GraphicsEngine" title="Download on GitHub" %}
-
 {% include text.html text="
    On the following video there is a red point light, a green spotlight and a white directional light.
 "%}
+
+{% include small_link.html link="https://github.com/jbalestr42/GraphicsEngine" title="Download on GitHub" %}
 
 {% include video.html link="https://www.youtube.com/embed/qSY0bUQsBNs?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}
 

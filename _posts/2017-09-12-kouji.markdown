@@ -23,8 +23,6 @@ Well, unfortunately, that's not (yet) possible.
 What is possible though is to create your unique avatar, choose a mood, film 8 seconds of your unique life and share it with your amazing friends!
 This is Kouji and it's a new way to communicate with your friends or create awesome content for your precious Instagram profile.
 
-{% include link.html link="http://www.kouji-app.com/" title="Download it on Android and iOS!" %}
-
 {% include text.html text="
 
 My main task was to manage the customization of the avatar from scratch.<br/>

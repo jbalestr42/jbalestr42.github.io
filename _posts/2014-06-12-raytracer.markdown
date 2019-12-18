@@ -22,13 +22,13 @@ This project has been made at the school [42]({{ site.data.links.ft }}) with C.<
 In two weeks every student had to use the [ray tracing technique]({{ site.data.links.raytracing }}) to generate 3D images, followed by a month with a team of four people.<br/>
 Only one function was provided : SetPixel(x, y, color).
 
-{% include link.html link="https://github.com/jbalestr42/42/tree/master/Graphics/ray_tracer" title="Download on GitHub" %}
-
 {% include text.html text="
 Those videos are the result of the implemention of all basic shapes (planes, cubes, sphere, cones), lights (specular, diffuse, multiple), reflection and refraction.<br/>
 <br/>
 It's a CPU program and those videos are not in real time.
 "%}
+
+{% include small_link.html link="https://github.com/jbalestr42/42/tree/master/Graphics/ray_tracer" title="Download on GitHub" %}
 
 {% include video.html link="https://www.youtube.com/embed/2uVwTu24wgA?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}
 

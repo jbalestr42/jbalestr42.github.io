@@ -19,10 +19,10 @@ platforms:
 Born during a weekend, Ft Retro was created at the school [42]({{ site.data.links.ft }}) with C++ and [Ncurses]({{ site.data.links.ncurses }}).<br/>
 As simple as it looks, it was a great challenge to create a small [Shoot 'em up]({{ site.data.links.schmup }}) in two days.
 
-{% include link.html link="https://github.com/fcvalise/FtRetro" title="Download on GitHub" %}
-
 {% include text.html text="
 It's built from scratch, including basic game logic, <a href='https://en.wikipedia.org/wiki/ASCII'>ASCII</a> animated sprite display, collisions, movements, enemies, planets and power up.
 "%}
+
+{% include small_link.html link="https://github.com/fcvalise/FtRetro" title="Download on GitHub" %}
 
 {% include video.html link="https://www.youtube.com/embed/Q7rNyHkXPDA?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}

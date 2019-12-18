@@ -19,25 +19,12 @@ credits:
 My own implementation of the "Pin Table".<br/>
 The idea came by looking at the site [Game Art Tricks]({{ site.data.links.gameart }}) from [Simon Schreibt]({{ site.data.links.simonschreibt }}).
 
-{% include link.html link="https://github.com/jbalestr42/PinTable" title="Download on GitHub" %}
-
 {% include text.html text="
 I choose to generate the mesh procedurally in order to tweak multiples parameters to have the best result.<br/>
 I also implemented transitions to change the scene with a custom effect.<br/>
 The code can be improved in many way but the intention was to learn new things and have fun :D
 "%}
 
-<div style="padding-top: 20px;" class="row">
- <div class="col-0 col-lg-1"></div>
-  <div class="col-12 col-lg-10 d-flex justify-content-center" style="position:relative;padding-top:56.25%;">
-    <iframe src="https://i.simmer.io/@BanyFitch/pintable" frameborder="0" allowfullscreen
-    style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-  </div>
- <div class="col-0 col-lg-1"></div>
-</div>
-<div class="row">
- <div class="col-0 col-lg-1"></div>
- <div class="col-12 col-lg-10 d-flex justify-content-center" align="center">
- </div>
- <div class="col-0 col-lg-1"></div>
-</div>
+{% include small_link.html link="https://github.com/jbalestr42/PinTable" title="Download on GitHub" %}
+
+{% include unity_game.html url="https://i.simmer.io/@BanyFitch/pintable" %}

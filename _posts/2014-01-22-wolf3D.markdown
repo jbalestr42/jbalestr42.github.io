@@ -19,10 +19,10 @@ This project has been made at the school [42]({{ site.data.links.ft }}) with C.<
 In three weeks every student had to use the [ray casting technique]({{ site.data.links.raycasting }}) to generate a 3D map like the famous [Wolfenstein]({{ site.data.links.wolfenstein }}).<br/>
 Only one function was provided : SetPixel(x, y, color).
 
-{% include link.html link="https://github.com/jbalestr42/42/tree/master/Graphics/wolf3d" title="Download on GitHub" %}
-
 {% include text.html text="
 In my own version I have implemented collisions, animated sprites, and a custom event system to trigger special visual effects.
 "%}
+
+{% include small_link.html link="https://github.com/jbalestr42/42/tree/master/Graphics/wolf3d" title="Download on GitHub" %}
 
 {% include video.html link="https://www.youtube.com/embed/cg8lez3gFoU?modestbranding=1&autohide=1&showinfo=0&controls=1&rel=0" %}
