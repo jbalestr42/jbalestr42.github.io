@@ -8,7 +8,6 @@ lulu:
   job: Graphic Designer
   link: http://www.luciencoycault.fr/
 
-
 julien:
   name: 'Julien Balestrieri'
   job: Developer
@@ -68,3 +67,8 @@ bhvr:
     name: 'Behaviour Interactive'
     job: Studio
     link: https://www.bhvr.com/
+
+small:
+    name: 'Small Creative'
+    job: Studio
+    link: https://www.small-studio.io/

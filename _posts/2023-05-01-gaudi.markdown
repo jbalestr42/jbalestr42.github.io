@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Gaudi: The Atelier of the Divine"
+date:   2023-05-01 16:00:00 -0500
+img: img/portfolio/gaudi.jpeg
+modalID: modalGaudi
+color1: e49b33
+color2: 9e6b1d
+category: professional
+description: A collective VR experience for a group of 6 participants simultaneously
+libs:
+ - csharp
+ - unity
+credits:
+ - small
+specials:
+ - vrhmd
+carousel:
+ - img/portfolio/gaudi_1.png
+ - img/portfolio/gaudi_2.png
+ - img/portfolio/gaudi_3.png
+ - img/portfolio/gaudi_4.png
+ - img/portfolio/gaudi_5.png
+---
+I was the lead developer on this project. I made a Unity package to create a multiplayer VR scene including a system to manage linear states across the network allowing designers to create contents and test easily.
+You can find out more about this project [here]({{ site.data.links.gaudi }}).<br/>
+
+{% include carousel.html %}
+
+{% include video.html link="https://res.cloudinary.com/dk8btilfz/video/upload/v1684167233/Site%20Web/Projets/gaudi/carroussel_vid/Gaudi_Teaser_English_gpx6qt" %}
