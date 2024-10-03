@@ -1,17 +1,17 @@
 franfran:
   name: 'François Corbel'
   job: Developer
-  link: http://www.francoiscorbel.com/
+  link: https://www.francoiscorbel.com/
 
 lulu:
   name: 'Lucien Coycault'
   job: Graphic Designer
-  link: http://www.luciencoycault.fr/
+  link: https://www.luciencoycault.fr/
 
 julien:
   name: 'Julien Balestrieri'
   job: Developer
-  link: http://www.julienbalestrieri.com/
+  link: https://www.julienbalestrieri.com/
 
 iohann:
   name: 'Iohann Rabesson'
@@ -56,7 +56,7 @@ gui:
 spooklight:
     name: 'Spooklight Studio'
     job: The team
-    link: http://www.spooklight.ch/
+    link: https://www.spooklight.ch/
 
 343:
     name: '343 Industries'
