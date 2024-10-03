@@ -10,6 +10,7 @@ category: personal
 description: A simple Game Boy emulator.
 libs:
  - cpp
+ - sfml
 platforms:
  - windows
 credits:
