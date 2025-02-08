@@ -17,7 +17,7 @@ platforms:
  - windows
  - xbox
  - playstation
-specials:
+platforms_svg:
  - switch
 ---
 When I started to work on [Dead by Daylight]({{ site.data.links.dbd }}) I have been assigned to work on the Nintendo Switch (more info [here]({{ site.data.links.switch_post }})).<br/>

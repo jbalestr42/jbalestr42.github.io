@@ -13,7 +13,7 @@ libs:
  - unity
 credits:
  - small
-specials:
+platforms_svg:
  - vrhmd
 carousel:
  - img/portfolio/gaudi_1.png

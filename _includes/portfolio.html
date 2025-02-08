@@ -36,9 +36,9 @@
 						</div>
 						<div class="card-footer" style="background-color: #{{ post.color1 }}; height: 50px;">
 							<div class="row" style="height: 100%;">
-								{% for special in post.specials %}
+								{% for platform in post.platforms_svg %}
 								<div class="col-1" style="text-align: left;">
-									<svg style="left:0; position: relative; top: -6px; width: 35px; height: 35px;"><use fill="white" xlink:href="#icon-{{ special }}"></use></svg>
+									<svg style="left:0; position: relative; top: -6px; width: 35px; height: 35px;"><use fill="white" xlink:href="#icon-{{ platform }}"></use></svg>
 								</div>
 								{% endfor %}
 								<div class="col-5 col-md-6" style="padding-left: 25px; text-align: left;">
@@ -46,7 +46,7 @@
 										<div style="padding-right: 7px; font-size: 22px; color: white;" class="fab fa-{{ platform }}"></div>
 									{% endfor %}
 								</div>
-								{% unless post.specials %}
+								{% unless post.platforms_svg %}
 									<div class="col-1" style="text-align: left;">
 									</div>
 								{% endunless %}

@@ -3,8 +3,8 @@
 		{% for platform in page.platforms %}
 		<div style="padding-left: 15px; font-size: 22px; color: white;" class="fab fa-{{ platform }}"></div>
 		{% endfor %}
-		{% for special in page.specials %}
-		<svg style="padding-left: 10px; right:0; width: 40px; height: 40px;"><use fill="white" xlink:href="#icon-{{ special }}"></use></svg>
+		{% for platform in page.platforms_svg %}
+		<svg style="padding-left: 10px; right:0; width: 40px; height: 40px;"><use fill="white" xlink:href="#icon-{{ platform }}"></use></svg>
 		{% endfor %}
 		{% for lib in page.libs %}
 		<svg style="padding-left: 10px; padding-top: 4px; right:0; width: 40px; height: 40px;"><use fill="white" xlink:href="#icon-{{ lib }}"></use></svg>
