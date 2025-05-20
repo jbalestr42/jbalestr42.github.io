@@ -16,9 +16,9 @@ credits:
  - julien
 carousel:
  - img/portfolio/chip8_device.gif
- - img/portfolio/chip8_device.jpeg
- - img/portfolio/chip8_inside.jpeg
- - img/portfolio/chip8_prototype.jpeg
+ - img/portfolio/chip8_device.JPEG
+ - img/portfolio/chip8_inside.JPEG
+ - img/portfolio/chip8_prototype.JPEG
  - img/portfolio/chip8_schematic.png
 ---
 I made a simple chip 8 emulator long time ago when the idea of turning it into a portable console came to my mind...
