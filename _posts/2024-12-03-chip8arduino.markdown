@@ -2,7 +2,7 @@
 layout: post
 title:  "Chip 8 Arduino"
 date:   2024-12-03 16:00:00 -0500
-img: img/portfolio/chip8_device.jpeg
+img: img/portfolio/chip8_device.JPEG
 modalID: modalGameboy
 color1: abafb2 
 color2: 395f85 
